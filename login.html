@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Sign-Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-slider">
+            <input type="checkbox" id="toggle" class="toggle-checkbox">
+            <label for="toggle" class="toggle-label"></label>
+            <div class="form-container">
+                <!-- Login Form -->
+                <form class="form" id="login-form">
+                    <h2>Login</h2>
+                    <input type="email" placeholder="Email" aria-label="Email" required>
+                    <input type="password" placeholder="Password" aria-label="Password" required>
+                    <div class="remember-me">
+                        <input type="checkbox" id="remember">
+                        <label for="remember">Remember Me</label>
+                    </div>
+                    <button type="submit">Login</button>
+                </form>
+                <!-- Sign-Up Form -->
+                <form class="form hidden" id="signup-form">
+                    <h2>Sign Up</h2>
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="password" placeholder="Password" required>
+                    <input type="password" placeholder="Confirm Password" required>
+                    <button type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
